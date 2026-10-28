@@ -1,0 +1,32 @@
+[
+ {
+  "name": "Phishing message, detected",
+  "text": "your atlas pay account has a new notice. verify your identity. http://bit.ly/cprfc4",
+  "truth": "phish"
+ },
+ {
+  "name": "Legitimate message, cleared",
+  "text": "Are we still on for the match at 7:30? Claim it today.",
+  "truth": "legit"
+ },
+ {
+  "name": "Phishing message, missed by the model",
+  "text": "Dear customer, A payment of $7.67 is pending. You can manage this in the app settings. https://vg9ys-login.info/aqjv",
+  "truth": "phish"
+ },
+ {
+  "name": "Legitimate message, wrongly flagged",
+  "text": "Hello, BlueFreight could not deliver your package today. Please reply as soon as you can.",
+  "truth": "legit"
+ },
+ {
+  "name": "Public data, spam or phishing",
+  "text": "only 5 days left to enter the picture perfect giveaway if you cannot read this email , click here hello bruce , we have great news ! the toshiba flat panel television offers a sharp theatre - like picture , built - in speakers and tuner . it ? s the perfect addition to your entertainment centre - watching movies at home will never be the same again ! if you no longer wish to receive future communications from columbia house click here .",
+  "truth": "phish"
+ },
+ {
+  "name": "Public data, legitimate",
+  "text": "URL: http://diveintomark.org/archives/2002/10/06.html#central Date: 2002-10-06T23:30:20-05:00_Michael Barrish_: Home[1]. \u00e2\u20ac\u0153Had I been given a choice in the matter, I would have preferred a name that made people think of things I considered more central to my identity, like \u00e2\u20ac\u0153artist\u00e2\u20ac\u009d or \u00e2\u20ac\u0153intellectual\u00e2\u20ac\u009d or \u00e2\u20ac\u0153outrageously good in bed.\u00e2\u20ac\u009d\u00e2\u20ac\u009d[1] http://oblivio.com/road/02100401.shtml",
+  "truth": "legit"
+ }
+]
